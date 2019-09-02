@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class UserController {
 	
-	   @GetMapping("/")
+	   @GetMapping("/") // just for welcome page 
 	   public String index() {
 	      return "index";
 	   }
